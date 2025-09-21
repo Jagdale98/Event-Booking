@@ -1,0 +1,96 @@
+
+/* Services Section */
+.services {
+  text-align: center;
+  padding: 50px 20px;
+  background: #f8d7da; /* light pink */
+}
+
+.services h1 {
+  font-size: 32px;
+  margin-bottom: 40px;
+  color: #2c3e50;
+}
+
+.service-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 25px;
+}
+
+.service-box {
+  background: #f4c2c2; /* pink card */
+  width: 250px;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+  text-align: left;
+  transition: transform 0.3s;
+}
+
+.service-box:hover {
+  transform: translateY(-5px);
+}
+
+.service-box img {
+  width: 100%;
+  height: 160px;
+  border-radius: 8px;
+  object-fit: cover;
+  margin-bottom: 15px;
+}
+
+.service-box h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+  color: #2c3e50;
+}
+
+.service-box p {
+  font-size: 14px;
+  color: #333;
+  line-height: 1.5;
+}
+
+/* Mission Section */
+.mission {
+  text-align: center;
+  padding: 40px 20px;
+  background: #fff;
+}
+
+.mission h2 {
+  font-size: 28px;
+  color: #2c3e50;
+}
+
+/* Mobile */
+@media screen and (max-width: 600px) {
+  .navbar {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .navbar a {
+    margin: 5px 0;
+    padding: 8px 10px;
+  }
+}
+  /* Tablets */
+@media screen and (max-width: 900px) {
+
+  .navbar {
+    justify-content: center;
+  }
+}/* Big Screens */
+@media screen and (min-width: 1440px) {
+  .navbar a {
+    padding: 12px 20px;
+    font-size: 18px;
+  }
+
+  .logo {
+    font-size: 28px;
+  }
+}
